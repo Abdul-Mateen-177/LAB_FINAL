@@ -20,12 +20,6 @@ public class TestCalculator {
 		assertEquals(0, actual);
 	}
 	
-	@Test
-	public void CalculatorTest3() {
-		calculatorClassObj = new Calculator();
-		int actual = calculatorClassObj.findMax(15, 10, -20);
-		assertEquals(10, actual);
-	}
 	
 	@Test
 	public void squareTest1() {
@@ -58,12 +52,4 @@ public class TestCalculator {
 		calculatorClassObj = new Calculator();
 		calculatorClassObj.square(-10);
 	}
-	
-	@Test
-	public void cubeTest3() {
-		calculatorClassObj = new Calculator();
-		int actual = calculatorClassObj.cube(4);
-		assertEquals(64, actual);
-	}
-	
 }
